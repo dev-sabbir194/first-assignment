@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+}
+
+
+
+/* Header styles */
+header{
+
+    background-image: url(/images/banner/banner3.png);
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    height: 800px;
+
+
+}
+
+/* banner section */
+
+.banner-section{
+    padding: 181px 230px 364px 845px;
+    font-family: 'Work Sans', sans-serif;
+    }
+
+
+/* Banner image */
+.banner-image{
+    width: 1600px;
+    height: 900px;
+    margin: 0;
+}
+
+
+.banner-text {
+    text-align: right;
+}
+
+
+.banner-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 50px;
+
+}
+
+.banner-description{
+    padding-top: 24px;
+    color: #FFFFFF;
+}
+
+
+/* banner button */
+.praimary-button{
+    margin-top: 24px;
+    height: 64px;
+    width: 160px;
+    color: #005FAC;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+
+
+/* Main section */
+
+
+
+
+/* main-section-img */
+
+.main-section-img{
+    width: 569px;
+    height: 723.3px;
+
+}
+
+.my-future{
+    display: flex;
+}
+
+.section-text-n{
+    padding: 217px 322px 16px 87px;
+}
+
+.main-section-list{
+    margin-top: 16px;
+    width: 349px;
+    height: 162px;
+
+}
+.main-section-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.main-section-description{
+    margin-top: 24px;
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;   
+}
+.list-property{
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    
+}
+
+  li{
+    list-style: none;
+  }
+
+  li:before {
+    content: '✓';
+  }
+  
+
+
+
+
+
+/* my plans section */
+
+  .plans-section{
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+.my-plans-section{
+        padding: 2px 229px 130px 230px;
+}
+
+
+  .my-plans-section-title{
+        text-align: center;
+        font-weight: 700;
+        font-size: 40px;
+        color: #151414;
+        margin-top: 129px;
+        margin-bottom: 50px;
+  }
+
+  .my-plan-title{
+    color: #151414;
+    font-size: 30px;
+    line-height: 35px;
+
+  }
+  .my-plan-description{
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+  }
+
+
+
+
+  /* image gradiant */
+
+
+   .image-gradiant-section {
+    padding: 0px 130px 0px 130px;}
+
+
+
+  .image-gradiant {
+    padding: 0px 130px 0px 123px;
+    width: 1140px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    background-size: 1140px 300px;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+
+    
+}
+
+.image-gradiant .title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+}
+
+.image-gradiant .text{
+    width: 459px;
+    height: 182px;
+    padding: 59px 617px 147px 64px;
+}
+
+
+
+
+/* Contact section */
+.contact{
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 130px;
+    height: 577px;
+    background-color: #151414;
+}
+
+ .contact .first-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
+ }
+
+.contact .Part-one{
+    width: 485px;
+    height: 317px;
+    margin-top: 130px;
+}
+
+.contact .part-two{
+    margin-top: 130px;
+}
+ .contact .secound-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+ }
+
+ .Part-one .description{
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+
+ }
+
+ .contact-details{
+    width: 186px;
+    height: 146px;
+    color: #ffffff;
+    margin-top: 24px;
+ }
+
+ .contact-details .phone {
+        margin-top: 16px;
+        margin-bottom: 32px;
+ }
+
+ /* social-media */
+  .social-media{
+    margin-top: 32px;
+    width: 1184px;
+    height: 46px;
+  }
+
+ .icon-twitter {
+    margin-left: 17px;
+    margin-right: 18px;
+}
