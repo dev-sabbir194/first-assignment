@@ -7,7 +7,7 @@
 /* Header styles */
 header{
 
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     max-width: 1600px;
     height: 800px;
@@ -176,7 +176,7 @@ header{
     padding: 0px 130px 0px 123px;
     width: 1140px;
     height: 300px;
-    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
     background-size: 1140px 300px;
     border-radius: 8px;
     background-repeat: no-repeat;
