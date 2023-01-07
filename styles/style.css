@@ -106,26 +106,17 @@ header{
     font-weight: 400;
     font-size: 16px;   
 }
-.list-property{
-    margin-top: 8px;
-    font-weight: 400;
-    font-size: 16px;
-    color: #444343;
-    
-}
 
-  li{
+
+
+li{
     list-style: none;
   }
 
-  li:before {
-    content: '✓';
-  }
-  
-
-
-
-
+  i.fa.fa-check {
+    color: #56ff00;
+    margin-right: 10px;
+}
 
 /* my plans section */
 
