@@ -129,9 +129,10 @@ li{
 
 .my-plans-section{
     padding: 2px 229px 130px 230px;
+    
 }
 
-.my-plans-section .section-title{
+.plans-section-title{
     text-align: center;
     font-weight: 700;
     font-size: 40px;
@@ -140,19 +141,19 @@ li{
     margin-bottom: 50px;
 }
 
-.my-plans-section .plans{
+.plans{
     display: flex;
     justify-content: space-around;
   }
 
 
-  .my-plan .title{
+.my-plan .title{
     color: #151414;
     font-size: 20px;
     line-height: 35px;
 
   }
-  .my-plan .description{
+.my-plan .description{
     color: #737272;
     font-weight: 500;
     font-size: 15px;
