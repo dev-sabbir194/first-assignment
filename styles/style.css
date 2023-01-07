@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
@@ -66,51 +67,51 @@ header{
 
 
 
+/* ---------------Main section start---------------- */
+/*-------------- Main section /// my-future start------------- */
+.my-future{
+    display: flex;
+}
 
-/* Main section */
 
-
-
-
-/* main-section-img */
-
-.main-section-img{
+.my-future .section-img{
     width: 569px;
     height: 723.3px;
 
 }
 
-.my-future{
-    display: flex;
-}
-
-.section-text-n{
+.my-future .section-text{
     padding: 217px 322px 16px 87px;
 }
 
-.main-section-list{
-    margin-top: 16px;
-    width: 349px;
-    height: 162px;
-
-}
-.main-section-title{
+.my-future .section-title{
     color: #151414;
     font-weight: 700;
     font-size: 40px;
 }
 
-.main-section-description{
+.my-future .section-description{
     margin-top: 24px;
     color: #444343;
     font-weight: 400;
     font-size: 16px;   
 }
 
+.my-future .section-list{
+    margin-top: 16px;
+    width: 349px;
+    height: 162px;
+
+}
+
 
 
 li{
     list-style: none;
+    margin-top: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
   }
 
   i.fa.fa-check {
@@ -118,46 +119,49 @@ li{
     margin-right: 10px;
 }
 
-/* my plans section */
+/*---------------- my future section End ---------------------*/
 
-  .plans-section{
+
+
+
+
+/*-------------------------- my plans section start----------------------- */
+
+.my-plans-section{
+    padding: 2px 229px 130px 230px;
+}
+
+.my-plans-section .section-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-top: 129px;
+    margin-bottom: 50px;
+}
+
+.my-plans-section .plans{
     display: flex;
     justify-content: space-around;
   }
 
 
-.my-plans-section{
-        padding: 2px 229px 130px 230px;
-}
-
-
-  .my-plans-section-title{
-        text-align: center;
-        font-weight: 700;
-        font-size: 40px;
-        color: #151414;
-        margin-top: 129px;
-        margin-bottom: 50px;
-  }
-
-  .my-plan-title{
+  .my-plan .title{
     color: #151414;
-    font-size: 30px;
+    font-size: 20px;
     line-height: 35px;
 
   }
-  .my-plan-description{
+  .my-plan .description{
     color: #737272;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 15px;
   }
+/*-------------------------- my plans section end----------------------- */
 
 
 
-
-  /* image gradiant */
-
-
+  /* --------image gradiant start -----------*/
    .image-gradiant-section {
     padding: 0px 130px 0px 130px;}
 
@@ -188,6 +192,7 @@ li{
     height: 182px;
     padding: 59px 617px 147px 64px;
 }
+/* --------image gradiant end -----------*/
 
 
 
@@ -201,26 +206,21 @@ li{
     background-color: #151414;
 }
 
- .contact .first-title{
-    font-weight: 700;
-    font-size: 45px;
-    color: #F8F8F8;
 
- }
 
+
+/*------------ contact part one start -------------*/
 .contact .Part-one{
     width: 485px;
     height: 317px;
     margin-top: 130px;
 }
 
-.contact .part-two{
-    margin-top: 130px;
-}
- .contact .secound-title{
-    font-weight: 600;
-    font-size: 25px;
-    color: #FFFFFF;
+.Part-one .title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+
  }
 
  .Part-one .description{
@@ -242,8 +242,11 @@ li{
         margin-top: 16px;
         margin-bottom: 32px;
  }
+/*------------ contact part one end -------------*/
 
- /* social-media */
+
+
+ /* ------ social-media start-------- */
   .social-media{
     margin-top: 32px;
     width: 1184px;
@@ -254,12 +257,22 @@ li{
     margin-left: 17px;
     margin-right: 18px;
 }
+ /* ------ social-media end-------- */
 
- .part-two{
 
+/* --------contact part two subscribe button start------------ */
+
+.contact .part-two{
+    margin-top: 130px;
     width: 325px;
     height: 144px;
 }
+.part-two .title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+ }
+
 
 .subscribe-button{
     margin-top: 16px;
@@ -283,3 +296,5 @@ li{
     border: 1px solid #FFFFFF;
     border-radius: 5px;
 }
+
+/*--------- contact part two subscribe button end -----------*/
