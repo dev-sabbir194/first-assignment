@@ -198,6 +198,8 @@ li{
 
 
 
+
+/*------------------ footer-section start---------------- */
 /* Contact section */
 .contact{
     display:flex ;
@@ -297,3 +299,4 @@ li{
     border: 1px solid #FFFFFF;
     border-radius: 5px;
 }
+/* -----------footer-close------------ */
